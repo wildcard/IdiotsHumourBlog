@@ -20,54 +20,51 @@
 </head>
 <body id="home">
 
-  <nav id="menu" class="ui inverted page grid segment">
+      <nav id="menu" class="ui inverted red page grid segment">
         <div class="column">
             <div class="inverted secondary pointing ui menu">
                 <div class="header item">
                     <a href="index.html">
                         <span id="logo">
-                            <i class="icon smile blue"></i>
-                            IDIOT'S HUMOR
+                            <img src="images/logo.png" />
                         </span>
                     </a>
                 </div>
                 <div class="right menu">
-
                     <a href="profile.html" class="item">פרופיל</a>
                     <a href="contact-us.html" class="item">צור קשר</a>
-
                 </div>
             </div>
         </div>
     </nav>
   
-      <section id="mainPages" class="ui page grid overview segment">
+    <section id="mainPages" class="ui page grid overview segment">
         <div class="ui two wide column"></div>
         <div class="twelve wide column">
             <div class="ui three column center aligned stackable divided grid">
                 <div class="column">
                     <div class="ui icon header">
-                        <i class="circular meh link icon"></i>
-                        אנשים מסכנים וחסרי מזל
+                        <i class="circular facebook link icon"></i>
+                        וואלה אופנה בפייסבוק
                     </div>
-                    <p>אנשים מסכנים וחסרי מזל אלו זה עמוד לא מצחיק, לא שנון ובכלל לא מעלה חיוך.</p>
-                    <p><a class="ui teal right labeled icon button" href="gallery.html">לחץ כאן <i class="left long arrow icon"></i></a></p>
+                    <p></p>
+                    <p><a class="ui red right labeled icon button" href="https://www.facebook.com/wallafashion">לחץ כאן <i class="left long arrow icon"></i></a></p>
                 </div>
                 <div class="column">
                     <div class="ui icon header">
                         <i class="circular youtube link icon"></i>
                         סרטונים
                     </div>
-                    <p>איזה כיף להעביר שעות בצפייה בסרטוני וידיאו של אידיוטים כמוכם.</p>
-                    <p><a class="ui teal right labeled icon button" href="post1.html">לחץ כאן<i class="left long arrow icon"></i></a></p>
+                    <p>ערוץ האופנה היו טיוב</p>
+                    <p><a class="ui red right labeled icon button" href="http://www.youtube.com/user/fashiontv">לחץ כאן<i class="left long arrow icon"></i></a></p>
                 </div>
                 <div class="column">
                     <div class="ui icon header">
-                        <i class="circular comment link icon"></i>
-                        דיבוב מצחיק
+                        <i class="circular photo link icon"></i>
+                        גלריית האופנה שלנו
                     </div>
-                    <p>דיבוב מצחיק נולד ביוזמתו של תומר לקוריץ' האגדי שהוא חבר וגם אח! הקבוצה הזאת רק גדלה מיום ליום ומסרט לסרט ועל זה אנו נברך! </p>
-                    <p><a class="ui teal right labeled icon button" href="post2.html">לחץ כאן<i class="left long arrow icon"></i></a></p>
+                    <p></p>
+                    <p><a class="ui red right labeled icon button" href="gallery.html">לחץ כאן<i class="left long arrow icon"></i></a></p>
                 </div>
             </div>
         </div>
@@ -101,65 +98,66 @@
       </div>
   </section>
   
-  <section id="blogLinks" class="ui page grid stackable segment">
-    <div class="row">
-      <div class="column">
-        <h1 class="center aligned ui header">
-          Blogs We Work With
-        </h1>
-        <div class="ui horizontal divider"><i class="smile icon"></i></div>
-      </div>
-    </div>
-    <div class="center column aligned row">
-      <div class="column">
-        <div class="ui text shape">
-          <div class="sides">
-            <div class="active side">
-              <i class="huge circular github icon"></i>
+    <section id="blogLinks" class="ui page grid stackable segment">
+        <div class="row">
+            <div class="column">
+                <h1 class="center aligned ui header">
+                    קישורים
+                </h1>
+                <div class="ui horizontal divider"><i class="smile icon"></i></div>
             </div>
-            <div class="side">
-              <i class="huge circular facebook icon"></i>
-            </div>
-            <div class="side">
-              <i class="huge circular maxcdn icon"></i>
-            </div>
-            <div class="side">
-              <i class="huge circular pinterest icon"></i>
-            </div>
-            <div class="side">
-              <i class="huge circular weibo icon"></i>
-            </div>
-            <div class="side">
-              <i class="huge circular flickr icon"></i>
-            </div>
-          </div>
         </div>
-      </div>
-      </div>
-    </div>
-  </section>
+        <div class="center three column aligned row">
+            <div class="column">
+                <a href="http://www.youtube.com" target="_blank">
+                    <div class="ui icon header">
+                        <i class="huge circular youtube icon"></i>
+                        יו טיוב
+                    </div>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.facebook.com/pages/%D7%90%D7%A0%D7%A9%D7%99%D7%9D-%D7%9E%D7%A1%D7%9B%D7%A0%D7%99%D7%9D-%D7%95%D7%97%D7%A1%D7%A8%D7%99-%D7%9E%D7%96%D7%9C/287068708100649" target="_blank">
+
+                    <div class="ui icon header">
+                        <i class="huge circular facebook icon"></i>
+                        אנשים מסכנים וחסרי מזל
+                    </div>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.facebook.com/lan2lan.StatusHunter" target="_blank">
+                    <div class="ui icon header">
+                        <i class="huge circular twitter icon"></i>
+                        סטטוסים מצייצים
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
   
-     <footer class="ui inverted blue page grid segment">
+     <footer class="ui inverted red page grid segment">
+        <div class="six wide right aligned column">
+            <h3 class="ui header">צור קשר</h3>
+            <addr>
+                שלמה זיסר 96 <br>
+                אור יהודה, ישראל<br>
+            </addr>
+            <p>052-5664848</p>
+        </div>
         <div class="ten wide column">
             <div class="ui three column stackable grid">
                 <div class="column">
                     <div class="ui header">קישורים</div>
                     <div class="ui inverted link list">
                         <a href="profile.html" class="item">פרופיל</a>
-                        <a href="gallery.html" class="item">אנשים מסכנים וחסרי מזל</a>
-                        <a href="contact-us.html">צור קשר</a>
+                        <a href="gallery.html" class="item">גלריית האופנה שלנו</a>
+                        <a href="contact-us.html" class="item">צור קשר</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="six wide right floated aligned column">
-            <h3 class="ui header">צור קשר</h3>
-            <addr>
-               דגניה 59 <br>
-                גני תקוה, ישראל<br>
-            </addr>
-            <p>052-6993777</p>
-        </div>
+        
     </footer>
 </body>
 
