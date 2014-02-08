@@ -1,9 +1,179 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
+<!-- InstanceBegin template="/Templates/layoutSemantic.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-    <title></title>
-</head>
-<body>
+    <!-- Standard Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
+    <!-- Site Properities -->
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>צור קשר</title>
+    <!-- InstanceEndEditable -->
+
+
+    <link rel="stylesheet" type="text/css" href="css/semantic.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+</head>
+<body id="home">
+
+    <nav id="menu" class="ui inverted page grid segment">
+        <div class="column">
+            <div class="inverted secondary pointing ui menu">
+                <div class="header item">
+                    <a href="index.html">
+                        <span id="logo">
+                            <i class="icon smile blue"></i>
+                            IDIOT'S HUMOR
+                        </span>
+                    </a>
+                </div>
+                <div class="right menu">
+
+                    <a href="profile.html" class="item">פרופיל</a>
+                    <a href="contact-us.html" class="item">צור קשר</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="topArticles" class="ui inverted page grid stackable relaxed feature segment">
+        <div class="row">
+            <div class="column">
+                <h1 class="left aligned ui header">
+                    <!-- InstanceBeginEditable name="MainPageHeader" -->
+                    מילוי פרטי משתמש
+                    <!-- InstanceEndEditable -->
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="ten wide column">
+                <!-- InstanceBeginEditable name="page content" -->
+                <form action="/" method="post" class="ui form segment">
+                    <div class="ui message">
+                        <div class="header">הודעה</div>
+                        <p>מלא\י את הפרטים ואולי תזכה\י בזוג כרטיסים לסטנדאפ מחשמל של מיטב האמנים בבית ציוני אמריקה\צוותא. </p>
+                    </div>
+                    <div class="two fields">
+                        <div class="field">
+                            <label>שם פרטי</label>
+                            <div class="ui left labeled icon input">
+                                <input placeholder="שם פרטי" type="text" name="fname">
+                                <i class="user icon"></i>
+                                <div class="ui corner label">
+                                    <i class="icon asterisk"></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="field">
+                            <label>שם משפחה</label>
+                            <input placeholder="שם משפחה" type="text" name="lname">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>תאריך לידה</label>
+                        <input type="date" name="dateOfBirth">
+                    </div>
+                    <div class="field">
+                        <label>כתובת</label>
+                        <input type="text" name="address">
+                    </div>
+
+                    <div class="field">
+                        <label>מייל</label>
+                        <input type="email" placeholder="מייל" name="email">
+                    </div>
+
+                    <div class="grouped inline fields">
+                        <div class="field">
+                            <label>זכר</label>
+                            <input type="radio" name="gender" checked>
+                        </div>
+                        <div class="field">
+                            <label>נקבה</label>
+                            <input type="radio" name="gender">
+                        </div>
+                    </div>
+
+                    <div class="inline field">
+                        <label>אני מסכים לתנאי השימוש</label>
+                        <input type="checkbox" name="agree">
+                    </div>
+                    <div class="ui blue submit button">שלח</div>
+                </form>
+                <!-- InstanceEndEditable -->
+            </div>
+        </div>
+    </section>
+
+    <section id="blogLinks" class="ui page grid stackable segment">
+        <div class="row">
+            <div class="column">
+                <h1 class="center aligned ui header">
+                    קישורים
+                </h1>
+                <div class="ui horizontal divider"><i class="smile icon"></i></div>
+            </div>
+        </div>
+        <div class="center three column aligned row">
+            <div class="column">
+                <a href="http://www.youtube.com" target="_blank">
+                    <div class="ui icon header">
+                        <i class="huge circular youtube icon"></i>
+                        יו טיוב
+                    </div>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.facebook.com/pages/%D7%90%D7%A0%D7%A9%D7%99%D7%9D-%D7%9E%D7%A1%D7%9B%D7%A0%D7%99%D7%9D-%D7%95%D7%97%D7%A1%D7%A8%D7%99-%D7%9E%D7%96%D7%9C/287068708100649" target="_blank">
+
+                    <div class="ui icon header">
+                        <i class="huge circular facebook icon"></i>
+                        אנשים מסכנים וחסרי מזל
+                    </div>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.facebook.com/lan2lan.StatusHunter" target="_blank">
+                    <div class="ui icon header">
+                        <i class="huge circular twitter icon"></i>
+                        סטטוסים מצייצים
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="ui inverted blue page grid segment">
+        <div class="ten wide column">
+            <div class="ui three column stackable grid">
+                <div class="column">
+                    <div class="ui header">קישורים</div>
+                    <div class="ui inverted link list">
+                        <a href="profile.html" class="item">פרופיל</a>
+                        <a href="gallery.html" class="item">אנשים מסכנים וחסרי מזל</a>
+                        <a href="contact-us.html">צור קשר</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="six wide right floated aligned column">
+            <h3 class="ui header">צור קשר</h3>
+            <addr>
+                דגניה 59 <br>
+                גני תקוה, ישראל<br>
+            </addr>
+            <p>052-6993777</p>
+        </div>
+    </footer>
 </body>
+
+<!-- InstanceEnd -->
 </html>
